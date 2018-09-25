@@ -28,7 +28,7 @@ moreInfo.addEventListener('mouseenter', function() {
   var y = event.screenY; // Get the vertical coorindate
   console.log(x);
   console.log(y);
-  tooltip.style.top = (y - 125) + 'px';
+  tooltip.style.top = (y - 120) + 'px';
   tooltip.style.left = (x - 125) + 'px';
 })
 
