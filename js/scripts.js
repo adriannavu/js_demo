@@ -19,7 +19,7 @@ closeBtn.addEventListener('click', function() {
   mobileNav.style.width = '0%';
   mobileNav.style.transition = '0.5s ease';
   content.style.opacity = '1';
-})
+});
 
 moreInfo.addEventListener('mouseenter', function() {
   console.log('moreInfo hovered over');
@@ -30,9 +30,9 @@ moreInfo.addEventListener('mouseenter', function() {
   console.log(y);
   tooltip.style.top = (y - 120) + 'px';
   tooltip.style.left = (x - 125) + 'px';
-})
+});
 
 moreInfo.addEventListener('mouseleave', function() {
   console.log('moreInfo hovered over');
   tooltip.style.opacity = '0';
-})
+});
